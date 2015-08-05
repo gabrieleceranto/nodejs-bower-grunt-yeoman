@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs-bower-grunt
+FROM digitallyseamless/nodejs-bower-grunt
 
 RUN npm install -g yo generator-cg-angular
 RUN adduser --disabled-password --gecos "" yeoman;
